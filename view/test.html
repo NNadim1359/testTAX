@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Send OTP</title>
+</head>
+<body>
+  <form action="/accountInfo" method="POST">
+    <div>
+      <label for="accountNumber">Account Number:</label>
+      <input type="text" id="accountNumber" name="accountNumber" required>
+    </div>
+    <div>
+      <label for="taxYear">Asisment Year:</label>
+      <select name="taxYear" id="taxYear">
+        <option value="2022-23">2022-23</option>
+      </select>
+    </div>
+    <button type="submit">Send OTP</button>
+  </form>
+</body>
+</html>

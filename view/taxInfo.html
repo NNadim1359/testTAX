@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/taxInfo" method="POST">
+        <div>
+            <label for="tin">TIN Number</label>
+            <input type="text" name="tin" id="tin">
+        </div>
+        <div>
+            <label for="date">Date</label>
+            <input type="date" name="date" id="date">
+        </div>
+        <div class="mb-3">
+            <label for="taxRefId">Tax Ref Id</label>
+            <input type="text" name="taxRefId" id="taxRefId">
+        </div>
+        <div class="mb-3">
+            <label for="image">Image</label>
+            <input type="file" id="image" name="image" accept="image/*">
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
